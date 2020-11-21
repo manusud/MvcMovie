@@ -4,10 +4,10 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1 class="color_1">Details</h1>
 
 <div>
-    <h4>Movie</h4>
+    <h4 class="color_1">Movie</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
@@ -40,6 +40,14 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Rating)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </dt>
+        <dd class="col-sm-10">
+            <img class="d-block w-30" src="@Html.DisplayFor(model => model.ImagePath)" data-color="firebrick" alt="@Html.DisplayFor(model => model.Title)">
+        </dd>
+
+
     </dl>
 </div>
 <div>

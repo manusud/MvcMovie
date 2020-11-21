@@ -13,9 +13,9 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #808080;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -68,4 +68,30 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+}
+
+/* Carrousel code */
+h3 {
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #0e131f;
+    font-family: 'Acme', sans-serif;
+}
+
+.color_1 {
+    color: aliceblue;
 }
